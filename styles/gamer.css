@@ -1,0 +1,553 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Work Sans;
+    
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.logo{
+
+    height:30px;
+    margin-top: 8px;
+    padding-bottom: 2px;
+}
+.gamer1{
+    font-size: 35px;
+    margin-left: 9px;
+
+}
+.G{
+    color: #FF42A5;
+    font-weight: bolder;
+}
+.logo-container-1{
+    display: flex;
+    justify-content: center;
+}
+.logo-main-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-shadow: 1px solid whitesmoke;
+    width: 100%;
+    
+    
+}
+
+.youtube{
+    width: 25px;
+margin-top: 0px;
+
+}
+
+.tiktok{
+    width: 12px;
+    margin-bottom: 2px;
+}
+
+.about-container{
+    display: flex;
+    gap: 20px;
+    
+}
+.aboutd{
+    display: flex;
+    gap: 5px;
+    
+}
+.y{
+    background-color: rgba(11, 2, 35, 0.10);
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    height: 30px;
+    padding: 3px 10px;
+    
+ 
+}
+
+.icon-play{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+.icon{
+    display: inline;
+    font-size: small;
+}
+.goat-text{
+    font-weight: 550px;
+    font-size: 59px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'poppins', sans-serif;
+}
+.description{
+    color: #534C64;
+    margin: 10px;
+
+}
+
+.btn1{
+    background-color: #F948B2;
+    width: 90px;
+    height: 45px;
+    border-radius: 30px;
+    border: white;
+    color: white;
+    margin-top: 10px;
+    border-color: white;
+
+}
+.btn2{
+    background-color: #4EC5F7;
+    width: 120px;
+    height: 45px;
+    border-radius: 30px;
+    margin-left: 10px;
+    color: white;
+    border: white;
+    margin-top: 10px;
+}
+
+
+.im{
+
+    width: 480px;
+
+
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+    width: 80vw;
+    background-color: white;
+    align-content: center;
+    margin: 20px auto;;
+}
+.banner-left{
+   align-content: center;
+   padding-left: 20px;
+}
+
+.banner-right-we{
+
+ 
+    font-size:  20px;
+    padding: 20px 30px; 
+    justify-content: center;  
+    text-align: left;
+    font-size: x-large;
+
+}
+
+
+.img{
+  
+    width: 500px;
+}
+   .banner-container2{
+    display: flex;
+  
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    gap: 30px;
+    margin: 90px auto;
+    justify-content: space-between;
+    
+   }
+
+#we{
+ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+ background-clip: text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ text-align: right;
+
+ 
+}
+.btn3{
+    background-color: #F948B2;
+    width: 120px;
+    height: 45px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 10px;
+    border: white;
+    
+}
+.purpose{
+    text-align: right;
+    color: #534C64;
+    margin-top: 14px;
+}
+.unleash{
+    text-align: right;
+    font-size: 15px;
+    color: #534C64;
+    font-weight: bold;
+}
+.container2-description{
+    text-align: right;
+    color: #534C64;
+    font-size: small;
+
+}
+.button-div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+/* section3 */
+
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+   .online-game{
+    text-align: center;
+    margin-top: 50px;
+    
+   }
+   .sec3-des{
+    color: #534C64;
+    font-size: small;
+  
+    
+   }
+   .sec3-pics{
+    display: flex;
+   justify-content: center;
+    margin: 40px auto;
+   flex-direction: row;
+   gap: 15px;
+   object-fit: cover;
+   } 
+
+
+
+   .pics{
+    width: 245px;
+  
+   
+    border-radius: 16px;
+  
+   }
+  
+    .description-gray{
+        color: #534C64;
+        margin-top: 10px;
+    }
+
+   .pics-play{
+    width: 260px;
+    align-items: center;
+    border-radius: 16px;
+  
+    
+    
+   }
+
+
+.play-view{
+
+    background-color: #534C64; 
+  
+   }
+
+ 
+   .watch{
+    color: #FF42A5;
+    font-weight: bolder;
+   
+   }
+   .pic-icon{
+    color: white;
+    align-items: center;
+    border-radius: 16px;
+    position: relative;
+    
+   }
+   .full-watch{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+   
+   }
+
+
+/* 4th sec */
+ .whole-parts{
+ 
+     display: flex;
+     align-items: center;  
+     width: 80%;
+     gap: 160px;
+     margin: 80px auto;
+     justify-content: space-around;
+ 
+ }
+
+
+ .sec-3-horse{
+    
+ 
+    text-align: right;
+    padding-left: 5%;
+    width: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.sec-4{
+    
+
+    text-align: left;
+    padding-left: 5%;
+    width: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+  .instant-text-color{
+    background: linear-gradient(180deg, #dd2091 0%, #f63cfd 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+      
+
+ .horse{ 
+    width: 420px;
+    border-radius: 8px;
+    position: relative;
+} 
+
+.horse-banner{
+    position: relative;
+}
+.my-talking-img{
+width: 200px;
+box-shadow: white;
+position: absolute;
+top: 60%;
+right: 78%;
+border-radius: 8px;
+}
+
+.whole-part-2{
+   
+     display: flex;
+ 
+     flex-direction: row-reverse;
+     width: 80%;
+     gap: 150px;
+     margin: 160px auto;
+     justify-content: space-around;
+     padding-right: 30px;
+ }
+ .lady-banner{
+    position: relative;
+ }
+
+ .horse-2{ 
+    width: 420px;
+    border-radius: 8px;
+    position: relative;
+} 
+ .my-talking-img-2{
+    width: 200px;
+    box-shadow: white;
+    position: absolute;
+    border-radius: 8px;
+    left: 75%;
+    top: 60%;
+    }
+    /* section-6 */
+
+
+    .banner-container-3{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+    
+        gap: 40px;
+        width: 100%;
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+        margin-top: 20px;
+       
+    }
+
+    .career{
+        color: white;
+    
+    }
+     .multimedia-full{ 
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+       
+    }
+
+    .banner-left-1{
+        justify-content: start;
+        text-align: left;
+        padding: 100px 150px;
+    }
+    
+    .btn4{
+        background-color: white;
+        width: 170px;
+        height: 35px;
+        border-radius: 30px;
+       
+        color: rgb(230, 12, 157);
+        border-color: white;
+        margin-top: 10px;
+        border-color: white
+    }
+    .lisbon{
+        text-align: right;
+    }
+  .banner-right-pic-3{
+    padding-right: 110px;
+  }
+
+/* section-7 */
+
+
+.logos-part{
+    display: flex;
+    border: 1px solid rgb(247, 243, 243);
+    gap: 10px;
+    width: 180px;
+    border-radius: 45px;
+    align-items: center;
+    padding: 5px;
+    background-color: azure;
+    :hover{
+        color: rgb(255, 0, 0);
+        background-color: rgb(205, 205, 200);
+     
+       } 
+}
+
+ .first-log{
+  width: 50px;
+ }
+
+logos-part:hover {
+color: #8758F1;
+}
+
+ .totally-logo-part{
+  
+    padding: 100px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 80vw;
+    margin: 0 auto;
+    cursor: pointer;
+
+ }
+
+
+
+
+
+.next-logos-part{
+  
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#bordered{
+    border: 1px solid red;
+}
+
+/* footer d */
+
+.logo-container-2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-menu{
+    display: flex;
+     gap: 30px;
+     color: white;
+}
+
+.logo-footer{
+    display: flex;
+    gap: 30px;
+  padding: 20px;
+
+}
+
+.terms{
+    display: flex;
+    gap: 30px;
+    color: gray;
+}
+.play-games{
+    color: gray;
+}
+
+
+.all-footer-part{
+    background-color:  #0B0223;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 70vh;
+    justify-content: center;
+    padding: 150px;
+   padding: 220px auto;
+}
+.amer-color{
+    color: white;
+}
+
+.play-games{
+    .br{
+        display: none;
+    }
+
+}
